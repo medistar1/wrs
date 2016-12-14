@@ -9,12 +9,11 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-   
     <preferance name="KeepRunning" value="false" />
+    <icon src="www/img/res/logo.png" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="fullscreen" value="true" />
     <preference name="orientation" value="landscape" />
-    <preference name="prerendered-icon" value="true" />
 </widget>

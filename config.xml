@@ -10,13 +10,18 @@
     <content src="index.html" />
     <access origin="*" />
     
-    <icon src="res/mipmap-icon.png" gap:role="default" />
+   
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="fullscreen" value="true" />
     <preference name="orientation" value="landscape" />
-    <preference name="prerendered-icon" value="true" />
+   
     <preferance name="KeepRunning" value="false" />
+    
+        
+    <icon src="www/img/res/logo.png" />
+        
+   
      
    
     
