@@ -15,7 +15,7 @@
     <preference name="android-minSdkVersion" value="14" />
     <preference name="fullscreen" value="true" />
     <preference name="orientation" value="landscape" />
-   
+    <preference name="LogLevel" value="VERBOSE" />
     <preferance name="KeepRunning" value="false" />
     
         
