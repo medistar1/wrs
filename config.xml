@@ -10,7 +10,7 @@
     <content src="index.html" />
     <access origin="*" />
     
-
+    <icon src="res/mipmap-icon.png" gap:role="default" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="fullscreen" value="true" />
