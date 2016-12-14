@@ -1,0 +1,332 @@
+* {
+		margin: 0;
+		padding: 0;
+	
+}
+
+.hidden {
+		display: none;
+
+}
+
+.profiti,#ho {
+	margin-top: -35px;
+}
+
+
+p {
+	font-size: 15px;
+	color: #DADFF9;
+	line-height: 12px;
+}
+h3 {
+		margin-left: 58px;
+}
+
+
+
+
+
+
+.brojevi {
+	width: 32px;
+	height: 45px; 
+	border: none;
+	font-family: Ariel;
+	font-size: 26px;
+	border-radius: 15px;
+	font-weight: bolder;
+
+
+}
+
+.brojevi:active {
+	background-color: #ccffcc;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	
+
+}
+.brojevi:focus {
+	outline-color: #B9B8B8;
+}
+.display {
+		width: 410px;
+	   height: 25px;
+		background-color: black;
+		padding-left: 10px;
+	    white-space: nowrap; 
+		overflow: hidden;
+	
+
+
+		
+		
+	 
+}
+#textbox2 .brojevi {
+	display: inline-block;
+
+}
+
+
+ #cleartextbox1:focus {
+	 outline-color: #B9B8B8;
+ }
+.do:focus {
+	 outline-color: #B9B8B8;
+ }
+ .up:focus {
+     outline-color: #B9B8B8;
+ }
+
+.dvojka .crveni {
+
+	font-size: 17px;
+	width: 36px;
+	height: 25px;
+	
+}
+.dvojka .crni {
+ 
+	font-size: 17px;
+	width: 36px;
+	height: 25px;
+	
+}
+.dvojka .nula {
+
+	font-size: 17px;
+	width: 36px;
+	height: 25px;
+	
+}
+
+
+
+.kvadratici {
+	width: 50px;
+	height: 35px;
+	border: 1px solid red;
+	display: inline-block;
+	color: white;
+	font-size: 22px;
+	text-shadow:0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 65px #49ff18, 0 0 75px #49ff18, 0 0 95px #49ff18;
+	
+}
+.hott {
+	display: inline;
+}
+.hotts {
+	height: 20px;
+	width: 18px;
+	border: 1px solid red;
+	display: inline-block;
+	color: black;
+
+	font-weight: bold;
+}
+
+td {
+	height: 32px;
+	width: 20px;
+	text-align: center;
+	
+	border: 1px dashed black;
+	border-color: #006555;
+	color: #DADFF9;
+}
+ 
+table {
+	border-spacing: 1px;
+	border-collapse: separate;
+}
+.sto {
+	background-color: black;
+	border-color: #006555;
+
+}
+.sto td:not(.redovi) {
+	
+	height: 52px;
+	border-color:#006555;
+	color: #006555;
+	border: 1px solid;
+	font-size: 20px;
+}
+
+.testone {
+	height: 20px;
+	background: black;
+	font-size: 30px;
+	color: #006555;
+	
+}
+.testtwo {
+	height: 30px;
+	background: black;
+	font-size: 40px;
+	color: #006555;
+}
+
+.row1div {
+	
+	height: 37px;
+	background-color: black;
+	border: 1px solid;
+	border-color: #006555;
+	font-size: 14px;
+	float: right;
+	
+
+}
+
+
+	.row1div > * {
+	
+	height: 15px;
+	background-color: black;
+	border-color: #FF0D1A;
+	font-size: 15px;
+	text-align: left;
+	
+	padding-right: 0; 
+	}
+.clicked-once {
+	color: black;
+}
+.kasti {
+	color: #FF0D1A;
+}
+.zelenkasti {
+	color: #01927A;
+
+}
+
+.zaprofit {
+	
+	height: 34px;
+	 background-color: black;
+ color: #FF0D1A;
+	font-size: 12px;
+	text-align: left;
+	margin-left: 0px;
+	
+	
+	
+	
+
+}
+.redovi{
+	height: 30px;
+	border-color:#006555;
+	color: #006555;
+	border: 1px solid;
+	font-size: 15px;
+}
+
+#mymodal,#mymodal1 {
+	 /* Hidden by default */
+  
+    left: 0;
+    top: 0;
+   
+  
+    background: black;
+	
+	background-color: #black;
+}
+
+#cleartextbox1 {
+	margin-right:100px;
+	width: 80px;
+	height: 33px;
+	background-color: transparent;
+	color: #006555;
+	font-family: Verdana;
+	font-size: 20px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+.do {
+	width: 80px;
+	margin-left: 100px;
+	height: 33px;
+	background-color: transparent;
+	color: #006555;
+	font-family: Verdana;
+	font-size: 20px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+.up {
+	width: 80px;
+	height: 33px;
+	background-color: transparent;
+	color: #006555;
+	font-family: Verdana;
+	font-size: 20px;
+	border-radius: 10px;
+	font-weight: bold;
+}
+#closeprofit,#closeprofit1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+
+#closeprofit:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#closeprofit1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#divwin {
+	border: 1px black;
+	border-radius: 10px;
+} 
+.pojedprof {	
+	display: none;
+}
+#profit {
+	color: red;
+	font-size: 20px;
+	height: 30px;
+	display: inline;
+	
+}
+
+
+
+#imgokv {
+	margin: auto;
+ 
+}
+#lookprofit,#hotnumbers{
+	width: 200px;
+	height: 40px;
+	background-color: transparent;
+	color: #006555;
+	font-family: Verdana;
+	font-size: 20px;
+	border-radius: 10px;
+	font-weight: bold;
+	margin-left: 12px;
+	display: inline;
+ }
+
+
+
+ .tanak {
+	height: 4px;
+	background: black;
+ }

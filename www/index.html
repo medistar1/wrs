@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    
+
+    <title>WinRouletteSpin</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+ 
+    <link href="css/main.css" rel="stylesheet" type="text/css">    
+    <script type="text/javascript" src="./js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    
+    
+    
+    
+</head>
+    <body style="background:black;">
+       
+
+<div>
+       
+        <div>
+           <table class="sto" style="width:100%;">
+  <tr><td colspan="12" style="text-align: left; height: 30px;"><div class="display dvojka" id="textbox2"></td> 
+  </tr>
+  <tr class = "trireda">
+   <td colspan="12">
+   <button id="cleartextbox1">Clear</button>
+   <input type="button" id="btn0" class="brojevi nula crveni crni neparni even prvapo drugap krug kvadrat romb pas zec maca" style="color:#006555;" value="0"></input>
+   <button class="do">Down</button>
+   </td>
+   </tr>        
+  <tr class = "trireda">
+    
+    <td id="td3"><input type="button" id="btn3" class="brojevi crveni neparni prvapo krug kvadrat pas maca" style="color:red;" value="3"></input></td>
+    <td id="td6"><input type="button" id="btn6" class="brojevi crni even prvapo krug kvadrat pas maca" style="color:black;" value="6"></input></td>
+    <td id="td9"><input type="button" id="btn9" class="brojevi crveni neparni prvapo krug kvadrat pas maca" style="color:red;" value="9"></input></td>
+    <td id="td12"><input type="button" id="btn12" class="brojevi crveni even prvapo krug kvadrat pas maca" style="color:red;" value="12"></input></td>
+    <td id="td15"><input type="button" id="btn15" class="brojevi crni neparni prvapo krug kvadrat zec maca" style="color:black;" value="15"></input></td>
+    <td id="td18"><input type="button" id="btn18" class="brojevi crveni even prvapo krug kvadrat zec maca" style="color:red;" value="18"></input></td>
+    <td id="td21"><input type="button" id="btn21" class="brojevi crveni neparni drugap krug kvadrat zec maca" style="color:red;" value="21"></input></td>
+    <td id="td24"><input type="button" id="btn24" class="brojevi crni even drugap krug kvadrat zec maca" style="color:black;" value="24"></input></td>
+    <td id="td27"><input type="button" id="btn27" class="brojevi crveni neparni drugap krug kvadrat zec pas" style="color:red;" value="27"></input></td>
+    <td id="td30"><input type="button" id="btn30" class="brojevi crveni even drugap krug kvadrat zec pas" style="color:red;" value="30"></input></td>
+    <td id="td33"><input type="button" id="btn33" class="brojevi crni neparni drugap krug kvadrat zec pas" style="color:black;" value="33"></input></td>
+    <td id="td36"><input type="button" id="btn36" class="brojevi crveni even drugap krug kvadrat zec pas" style="color:red;" value="36"></input></td>
+    
+   
+   
+  </tr>
+  <tr class = "trireda">
+    <td id="td2"><input type="button" id="btn2" class="brojevi crni even prvapo krug romb pas maca" style="color:black;" value="2"></input></td>
+    <td id="td5"><input type="button" id="btn5" class="brojevi crveni neparni prvapo krug romb pas maca" style="color:red;" value="5"></input></td>
+    <td id="td8"><input type="button" id="btn8" class="brojevi crni even prvapo krug romb pas maca" style="color:black;" value="8"></input></td>
+    <td id="td11"><input type="button" id="btn11" class="brojevi crni neparni prvapo krug romb pas maca" style="color:black;" value="11"></input></td>
+    <td id="td14"><input type="button" id="btn14" class="brojevi crveni even prvapo krug romb zec maca" style="color:red;" value="14"></input></td>
+    <td id="td17"><input type="button" id="btn17" class="brojevi crni neparni prvapo krug romb zec maca" style="color:black;" value="17"></input></td>
+    <td id="td20"><input type="button" id="btn20" class="brojevi crni even drugap krug romb zec maca" style="color:black;" value="20"></input></td>
+    <td id="td23"><input type="button" id="btn23" class="brojevi crveni neparni drugap krug romb zec maca" style="color:red;" value="23"></input></td>
+    <td id="td26"><input type="button" id="btn26" class="brojevi crni even drugap krug romb zec pas" style="color:black;" value="26"></input></td>
+    <td id="td29"><input type="button" id="btn29" class="brojevi crni neparni drugap krug romb zec pas" style="color:black;" value="29"></input></td>
+    <td id="td32"><input type="button" id="btn32" class="brojevi crveni even drugap krug romb zec pas" style="color:red;" value="32"></input></td>
+    <td id="td35"><input type="button" id="btn35" class="brojevi crni neparni drugap krug romb zec pas" style="color:black;" value="35"></input></td>
+   
+   
+    
+  </tr>
+  <tr class = "trireda">
+    <td id="td1"><input type="button" id="btn1" class="brojevi crveni neparni prvapo kvadrat romb pas maca" style="color:red;" value="1"></input></td>
+    <td id="td4"><input type="button" id="btn4" class="brojevi crni even prvapo kvadrat romb pas maca" style="color:black;" value="4"></input></td>
+    <td id="td7"><input type="button" id="btn7" class="brojevi crveni neparni prvapo kvadrat romb pas maca" style="color:red;" value="7"></input></td>
+    <td id="td10"><input type="button" id="btn10" class="brojevi crni even prvapo kvadrat romb pas maca" style="color:black;" value="10"></input></td>
+    <td id="td13"><input type="button" id="btn13" class="brojevi crni neparni prvapo kvadrat romb zec maca" style="color:black;" value="13"></input></td>
+    <td id="td16"><input type="button" id="btn16" class="brojevi crveni even prvapo kvadrat romb zec maca" style="color:red;" value="16"></input></td>
+    <td id="td19"><input type="button" id="btn19" class="brojevi crveni neparni drugap kvadrat romb zec maca" style="color:red;" value="19"></input></td>
+    <td id="td22"><input type="button" id="btn22" class="brojevi crni even drugap kvadrat romb zec maca" style="color:black;" value="22"></input></td>
+    <td id="td25"><input type="button" id="btn25" class="brojevi crveni neparni drugap kvadrat romb zec pas" style="color:red;" value="25"></input></td>
+    <td id="td28"><input type="button" id="btn28" class="brojevi crni even drugap kvadrat romb zec pas" style="color:black;" value="28"></input></td>
+    <td id="td31"><input type="button" id="btn31" class="brojevi crni neparni drugap kvadrat romb zec pas" style="color:black;" value="31"></input></td>
+    <td id="td34"><input type="button" id="btn34" class="brojevi crveni even drugap kvadrat romb zec pas" style="color:red;" value="34"></input></td>
+    
+  
+    
+  </tr>
+  <tr>
+   
+    <td colspan="2" class="jedandodvanaest redovi">1st12</td>
+    <td colspan="2" class="dvadodvanaest redovi">2nd12</td>
+    <td colspan="2" class="tridodvanaest redovi">3rd12</td>
+    <td colspan="2" class="tdrow1 redovi">ROW 1</td>
+    <td colspan="2" class="tdrow2 redovi">ROW 2</td>
+    <td colspan="2" class="tdrow3 redovi">ROW 3</td>
+    
+    
+  </tr>
+  <tr>
+    
+    <td colspan="2" style="background-color: #006555;"><div id="tenth" class="kvadratici"></div></td>
+    <td colspan="2" style="background-color: #006555;"><div id="eleventh" class="kvadratici"></div></td>
+    <td colspan="2" style="background-color: #006555;"><div id="twelveth" class="kvadratici"></div></td>
+    <td colspan="2" style="background-color: #006555;"><div id="seventh" class="kvadratici"></div></td>
+    <td colspan="2" style="background-color: #006555;"><div id="eigth" class="kvadratici"></div></td>
+    <td colspan="2" style="background-color: #006555;"><div id="nineth" class="kvadratici"></div></td>
+  </tr>
+  <tr>
+ 
+    <td colspan="2" class="jedandoosamnaest redovi">1-18</td>
+    <td colspan="2" class="tdodd redovi">ODD</td>
+    <td colspan="2" style="background-color: red;" class="tdred redovi">RED</td>
+    <td colspan="2" class="tdblack redovi">BLACK</td>
+    <td colspan="2" class="tdeven redovi">EVEN</td>
+    <td colspan="2" class="devetnaestdo36 redovi">19-36</td>
+  </tr>
+  <tr>
+   
+    <td colspan="2" style="background-color: #006555; border-right-color: black;"><div id="sixth" class="kvadratici"></div></td>
+    <td colspan="2" style="background-color: #006555; border-right-color: black;"><div id="fourth" class="kvadratici"></div></td>
+    <td colspan="2" style="background-color: #006555; border-right-color: black;"><div id="first" class="kvadratici"></div></td>
+    <td colspan="2" style="background-color: #006555; border-right-color: black;"><div id="second" class="kvadratici"></div></td>
+    <td colspan="2" style="background-color: #006555; border-right-color: black;"><div id="third" class="kvadratici"></div></td>
+    <td colspan="2" style="background-color: #006555; border-right-color: black;"><div id="fifth" class="kvadratici"></div></td>
+  </tr>
+    <tr>
+  
+  <td colspan="12" style="height: 37px; text-align: left;"> <div id = "profit"></div>
+ <button class="up" style="float: right">Up</button>
+  <button class="do" style="float: right">Down</button>
+  
+  
+  </td>
+  
+  </tr>
+  <tr>
+     <div class="container">
+      <div class="row">
+       <td colspan="12">
+      <div id="row1div111222" class="row1div col-xs-4"><div id="row1div111" class="zelenkasti"></div><div id="row1div222" class="kasti"></div></div>
+      <div class="row1div col-xs-4"><div id="row1div11" class="zelenkasti"></div><div id="row1div22" class="kasti"></div></div>
+      <div id="row1div12" class="row1div col-xs-4"><div id="row1div1" class="zelenkasti"></div><div id="row1div2" class="kasti"></div></div>
+    </td>
+    </div>
+    </div> 
+    
+    
+  </tr>
+  <tr>
+    
+    
+      <div class="container">
+      <div class="row">
+      <td colspan="12">
+      <div class="row1div col-xs-4"><div id="row1div333" class="zelenkasti"></div><div id="row1div444" class="kasti"></div></div>
+      <div class="row1div col-xs-4"><div id="row1div33" class="zelenkasti"></div><div id="row1div44" class="kasti"></div></div>
+      <div class="row1div col-xs-4"><div id="row1div3" class="zelenkasti"></div><div id="row1div4" class="kasti"></div></div>
+    </td>
+    </div>
+    </div>
+    
+    
+  </tr>
+  <tr>
+   
+    
+       <div class="container">
+      <div class="row">
+      <td colspan="12">
+      <div class="row1div col-xs-4"><div id="row1div555" class="zelenkasti"></div><div id="row1div666" class="kasti"></div></div>
+      <div class="row1div col-xs-4"><div id="row1div55" class="zelenkasti"></div><div id="row1div66" class="kasti"></div></div>
+      <div class="row1div col-xs-4"><div id="row1div5" class="zelenkasti"></div><div id="row1div6" class="kasti"></div></div>
+    </td>
+    </div>
+    </div>
+    
+   
+  </tr>
+  <tr>
+   
+   
+      <div class="container">
+      <div class="row">
+       <td colspan="12">
+      <div class="row1div col-xs-4"><div id="row1div777" class="zelenkasti"></div><div id="row1div888" class="kasti"></div></div>
+      <div class="row1div col-xs-4"><div id="row1div77" class="zelenkasti"></div><div id="row1div88" class="kasti"></div></div>
+      <div class="row1div col-xs-4"><div id="row1div7" class="zelenkasti"></div><div id="row1div8" class="kasti"></div></div>
+     </td>
+    </div>
+    </div>
+   
+    
+  </tr>
+  
+  
+  
+ 
+  </table>
+  <div class="testtwo1 pojedprof"></div> 
+<div class="testtwo2 pojedprof"></div> 
+<div class="testtwo3 pojedprof"></div> 
+<div class="testtwo4 pojedprof"></div> 
+<div class="testtwo5 pojedprof"></div> 
+<div class="testtwo6 pojedprof"></div> 
+<div class="testtwo7 pojedprof"></div> 
+<div class="testtwo8 pojedprof"></div> 
+<div class="testtwo9 pojedprof"></div> 
+<div class="testtwo10 pojedprof"></div> 
+<div class="testtwo11 pojedprof"></div> 
+<div class="testtwo12 pojedprof"></div>
+
+<button id="lookprofit" style="margin-top: 4px;">PROFIT BY ZONE</button>
+<button id="hotnumbers" style="margin-top: 4px; display: inline;">HOT NUMBERS</button>
+<div id="mymodal" class="hidden">
+
+<div>
+    <span id="closeprofit">x</span><br>
+   
+
+<h3 style="color: gray; margin-left:10px;">TOTAL PROFIT FOR EACH ZONE</h3><br><br>
+<table class="profiti" style="width:100%;">
+  
+  <tr>
+    
+   <div class="container">
+      <div class="row">
+      <td colspan="12">
+   <div class="row1div col-xs-4"><div class="test3 zaprofit"></div></div>
+   <div class="row1div col-xs-4"><div class="test4 zaprofit"></div></div>
+   <div class="row1div col-xs-4"><div class="test5 zaprofit"></div></div>
+   </td>
+    </div>
+   </div>
+
+  </tr>
+ 
+  <tr>
+ 
+  <div class="container">
+      <div class="row">
+     <td colspan="12"> 
+   <div class="row1div col-xs-4"><div class="test6 zaprofit"></div></div>
+   <div class="row1div col-xs-4"><div class="test7 zaprofit"></div></div>
+   <div class="row1div col-xs-4"><div class="test8 zaprofit"></div></div>
+   </td>
+   </div>
+   </div>
+
+  </tr>
+  <tr>
+  
+  <div class="container">
+      <div class="row">
+      <td colspan="12">
+   <div class="row1div col-xs-4"><div class="test9 zaprofit"></div></div>
+   <div class="row1div col-xs-4"><div class="test10 zaprofit"></div></div>
+   <div class="row1div col-xs-4"><div class="test11 zaprofit"></div></div>
+    </td>
+   </div>
+   </div>
+ 
+  </tr>
+  
+  <tr>
+  
+  <div class="container">
+      <div class="row">
+      <td colspan="12">
+   <div class="row1div col-xs-4"><div class="test12 zaprofit"></div></div>
+   <div class="row1div col-xs-4"><div class="test13 zaprofit"></div></div>
+   <div class="row1div col-xs-4"><div class="test14 zaprofit"></div></div>
+</td>
+</div>
+</div>
+
+  </tr>
+  </table>
+  </div>
+  </div>
+  <div id="mymodal1" class="hidden">
+
+<div>
+    <span id="closeprofit1">x</span><br>
+   
+
+<h3 style="color: gray; margin-left:10px;">HOT NUMBERS</h3><br><br>
+  <table id="ho" class="table">
+
+<tr>
+
+        <td>0</td>
+</tr>
+<tr>
+ <td><div id = "hott0" class="hotts"></div></td>
+</tr>   
+<tr>       
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+       <td>12</td>
+ </tr>
+ <tr>
+        <td><div id = "hott1" class="hotts"></div></td>
+        <td><div id = "hott2" class="hotts"></div></td>
+        <td><div id = "hott3" class="hotts"></div></td>
+        <td><div id = "hott4" class="hotts"></div></td>
+        <td><div id = "hott5" class="hotts"></div></td>
+        <td><div id = "hott6" class="hotts"></div></td>
+        <td><div id = "hott7" class="hotts"></div></td>
+        <td><div id = "hott8" class="hotts"></div></td>
+        <td><div id = "hott9" class="hotts"></div></td>
+        <td><div id = "hott10" class="hotts"></div></td>
+        <td><div id = "hott11" class="hotts"></div></td>
+        <td><div id = "hott12" class="hotts"></div></td>
+ </tr>  
+ <tr>     
+        <td>13</td>
+       <td>14</td>
+       <td>15</td>
+       <td>16</td>
+       <td>17</td> 
+        <td>18</td>
+         <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td> 
+        
+  </tr>
+  <tr>
+        <td><div id = "hott13" class="hotts"></div></td>
+        <td><div id = "hott14" class="hotts"></div></td>
+        <td><div id = "hott15" class="hotts"></div></td>
+        <td><div id = "hott16" class="hotts"></div></td>
+        <td><div id = "hott17" class="hotts"></div></td>
+        <td><div id = "hott18" class="hotts"></div></td>
+        <td><div id = "hott19" class="hotts"></div></td>
+        <td><div id = "hott20" class="hotts"></div></td>
+        <td><div id = "hott21" class="hotts"></div></td>
+        <td><div id = "hott22" class="hotts"></div></td>
+        <td><div id = "hott23" class="hotts"></div></td>
+        <td><div id = "hott24" class="hotts"></div></td>
+  
+  </tr>
+  <tr>      
+        
+       
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+        <td>36</td>
+      </tr>
+      <tr>
+       
+       
+       
+        <td><div id = "hott25" class="hotts"></div></td>
+        <td><div id = "hott26" class="hotts"></div></td>
+        <td><div id = "hott27" class="hotts"></div></td>
+        <td><div id = "hott28" class="hotts"></div></td>
+        <td><div id = "hott29" class="hotts"></div></td>
+        <td><div id = "hott30" class="hotts"></div></td>
+        <td><div id = "hott31" class="hotts"></div></td>
+        <td><div id = "hott32" class="hotts"></div></td>
+        <td><div id = "hott33" class="hotts"></div></td>
+        <td><div id = "hott34" class="hotts"></div></td>
+        <td><div id = "hott35" class="hotts"></div></td>
+        <td><div id = "hott36" class="hotts"></div></td>
+      </tr>
+
+    </table>
+  </div>
+  </div>
+        </div><!-- /content -->
+
+       
+    </div><!-- /page -->
+  
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/main.js"></script> 
+  
+    </body>
+</html>
